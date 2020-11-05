@@ -1,0 +1,815 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Classes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\bildhantering\stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gameobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VertexArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Update.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpelObjekt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpelObjektcpp\Enemy_Bullet_Template.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpelObjektcpp\Level_1_Enemy_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Hitbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpelObjektcpp\SpelarenFunktioner1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpelObjektcpp\Player_Attack_BigShot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Engine_GenericComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpelObjektcpp\Level_1_Enemy_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\TextRendering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\SpriteAnimationRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EgenUtility\MinaStringOperations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\SoundEngine\TouhouSoundEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpelObjektcpp\Johan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpelObjektcpp\MainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpelObjektcpp\PausMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\MinMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\bildhantering\BildHantering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Vector2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Gameobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\VertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\IndexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\VertexArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\VertexBufferLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Update.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\SpelObjekt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\SpelObjekt\Enemy_Bullet_Template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\SpelObjekt\Level_1_Enemy_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Hitbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\SpelObjekt\Player_Attack_BigShot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Engine_GenericComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\SpelObjekt\Level_1_Enemy_3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\EngineExternals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\TextRendering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\SpriteAnimationRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EgenUtility\MinaStringOperations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fmod\inc\fmod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fmod\inc\fmod.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fmod\inc\fmod_codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fmod\inc\fmod_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fmod\inc\fmod_dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fmod\inc\fmod_dsp_effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fmod\inc\fmod_errors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fmod\inc\fmod_output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\SoundEngine\TouhouSoundEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpelObjektcpp\Johan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpelObjektcpp\MainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpelObjektcpp\PausMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Source\TodoList.txt" />
+    <Text Include="SpelResurser\Sprites\AnimationConfigs\PlayerAnimationConfig.txt" />
+    <Text Include="SpelResurser\Sprites\AnimationConfigs\PlayerAnimationConfig2.txt" />
+    <Text Include="Resources\Shaders\fragmentshader.txt" />
+    <Text Include="Resources\Shaders\MonochromeShaderFragment.txt" />
+    <Text Include="Resources\Shaders\MonochromeShaderVertex.txt" />
+    <Text Include="Resources\Shaders\vertexshader.txt" />
+    <Text Include="Resources\SpelResurser\Sprites\AnimationConfigs\PlayerAnimationConfig.txt" />
+    <Text Include="Resources\SpelResurser\Sprites\AnimationConfigs\PlayerAnimationConfig2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="SpelResurser\Sprites\Jakob.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SpelResurser\Sprites\reverse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SpelResurser\Sprites\Bluesquare.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SpelResurser\Sprites\RedSquare.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SpelResurser\Sprites\Green.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\A.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\a_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\B.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\b_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\C.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\c_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\d_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\E.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\e_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\F.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\f_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\G.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\g_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\H.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\h_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\I.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\i_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\J.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\j_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\K.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\k_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\L.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\l_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\M.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\m_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\N.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\n_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\O.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\o_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\P.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\p_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\Q.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\q_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\R.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\r_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\S.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\s_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\T.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\t_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\U.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\u_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\V.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\W.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\v_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\w_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\X.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\x_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\Y.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\y_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\Z.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\z_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextImages\ZX_16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SpelResurser\Sprites\fiendeattack1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SpelResurser\Sprites\Backgrund1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SpelResurser\Sprites\Backgrund2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SpelResurser\Sprites\Backgrund3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SpelResurser\Sprites\PlayerRegularBullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\Backgrund1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\Backgrund2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\Backgrund3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\Bluesquare.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\fiendeattack1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\Green.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\Jakob.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\PlayerRegularBullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\RedSquare.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\reverse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\A.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\a_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\B.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\b_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\C.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\c_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\d_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\E.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\e_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\F.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\f_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\G.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\g_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\H.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\h_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\I.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\i_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\J.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\j_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\K.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\k_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\L.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\l_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\M.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\m_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\N.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\n_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\O.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\o_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\P.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\p_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\Q.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\q_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\R.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\r_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\S.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\s_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\T.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\t_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\U.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\u_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\V.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\W.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\v_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\w_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\X.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\x_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\Y.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\y_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\Z.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\z_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\TextImages\ZX_17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\Johan.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\BigShot.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\Fiende1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\Fiende2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\Fiende3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\Ossian.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SpelResurser\Sprites\Bomb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fmod\inc\fmod.cs" />
+    <None Include="Fmod\inc\fmod_dsp.cs" />
+    <None Include="Fmod\inc\fmod_errors.cs" />
+    <None Include="Fmod\lib\x64\fmod.dll" />
+    <None Include="Fmod\lib\x64\fmodL.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Fmod\lib\x64\fmod_vc.lib" />
+    <Library Include="Fmod\lib\x64\fmodL_vc.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\Sounds\PlayerBasicShot.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\PlayerBomb.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\BigShot.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\Oof.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\AnimeTeleport.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\OMyGodNejJohan.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

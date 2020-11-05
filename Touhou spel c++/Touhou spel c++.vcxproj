@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{793D0A3A-3F14-496E-9D17-0120452F8319}</ProjectGuid>
+    <RootNamespace>Touhouspelc</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Fmod\inc;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\include\glew-2.1.0\include;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\Headers;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\include;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\Source;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\Headers\SpelObjekt;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++;%(AdditionalIncludeDirectories);$(ProjectDir);$(ProjectDir)Headers\SpelObjekt;$(ProjectDir)Source;$(ProjectDir)include;$(ProjectDir)Headers;$(ProjectDir)Source\Engine\SoundEngine;$(ProjectDir)include\glew-2.1.0\include;$(ProjectDir)Source\SpelObjektcpp</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(ProjectDir)include\glew-2.1.0\lib\Release\x64;$(ProjectDir)lib-vc2019</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Fmod\inc;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\include\glew-2.1.0\include;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\Headers;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\include;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\Source;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\Headers\SpelObjekt;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++;%(AdditionalIncludeDirectories);$(ProjectDir);$(ProjectDir)Headers\SpelObjekt;$(ProjectDir)Source;$(ProjectDir)include;$(ProjectDir)Headers;$(ProjectDir)Source\Engine\SoundEngine;$(ProjectDir)include\glew-2.1.0\include;$(ProjectDir)Source\SpelObjektcpp</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GLEW_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(ProjectDir)Fmod\lib\x64;$(ProjectDir)include\glew-2.1.0\lib\Release\x64;$(ProjectDir)lib-vc2019</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Fmod\inc;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\include\glew-2.1.0\include;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\Headers;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\include;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\Source;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\Headers\SpelObjekt;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++;%(AdditionalIncludeDirectories);$(ProjectDir);$(ProjectDir)Headers\SpelObjekt;$(ProjectDir)Source;$(ProjectDir)include;$(ProjectDir)Headers;$(ProjectDir)Source\Engine\SoundEngine;$(ProjectDir)include\glew-2.1.0\include;$(ProjectDir)Source\SpelObjektcpp</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)include\glew-2.1.0\lib\Release\x64;$(ProjectDir)lib-vc2019</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Fmod\inc;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\include\glew-2.1.0\include;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\Headers;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\include;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\Source;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++\Headers\SpelObjekt;C:\Users\Sverker\Desktop\Unity\Touhou spel c++\Visualstudio variant\Touhou c++\Touhou spel c++;%(AdditionalIncludeDirectories);$(ProjectDir);$(ProjectDir)Headers\SpelObjekt;$(ProjectDir)Source;$(ProjectDir)include;$(ProjectDir)Headers;$(ProjectDir)Source\Engine\SoundEngine;$(ProjectDir)include\glew-2.1.0\include;$(ProjectDir)Source\SpelObjektcpp</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GLEW_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)Fmod\lib\x64;$(ProjectDir)include\glew-2.1.0\lib\Release\x64;$(ProjectDir)lib-vc2019</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\bildhantering\stb_image.cpp" />
+    <ClCompile Include="Source\Classes.cpp" />
+    <ClCompile Include="Source\EgenUtility\MinaStringOperations.cpp" />
+    <ClCompile Include="Source\Engine.cpp" />
+    <ClCompile Include="Source\Engine\Engine_GenericComponent.cpp" />
+    <ClCompile Include="Source\Engine\SoundEngine\TouhouSoundEngine.cpp" />
+    <ClCompile Include="Source\Engine\SpriteAnimationRenderer.cpp" />
+    <ClCompile Include="Source\Engine\TextRendering.cpp" />
+    <ClCompile Include="Source\Gameobject.cpp" />
+    <ClCompile Include="Source\Hitbox.cpp" />
+    <ClCompile Include="Source\IndexBuffer.cpp" />
+    <ClCompile Include="Source\Math.cpp" />
+    <ClCompile Include="Source\Renderer.cpp" />
+    <ClCompile Include="Source\Shader.cpp" />
+    <ClCompile Include="Source\Source.cpp" />
+    <ClCompile Include="Source\SpelObjekt.cpp" />
+    <ClCompile Include="Source\SpelObjektcpp\Enemy_Bullet_Template.cpp" />
+    <ClCompile Include="Source\SpelObjektcpp\Johan.cpp" />
+    <ClCompile Include="Source\SpelObjektcpp\Level_1_Enemy_2.cpp" />
+    <ClCompile Include="Source\SpelObjektcpp\Level_1_Enemy_3.cpp" />
+    <ClCompile Include="Source\SpelObjektcpp\MainMenu.cpp" />
+    <ClCompile Include="Source\SpelObjektcpp\PausMenu.cpp" />
+    <ClCompile Include="Source\SpelObjektcpp\Player_Attack_BigShot.cpp" />
+    <ClCompile Include="Source\SpelObjektcpp\SpelarenFunktioner1.cpp" />
+    <ClCompile Include="Source\Texture.cpp" />
+    <ClCompile Include="Source\Update.cpp" />
+    <ClCompile Include="Source\Vector2D.cpp" />
+    <ClCompile Include="Source\VertexArray.cpp" />
+    <ClCompile Include="Source\VertexBuffer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fmod\inc\fmod.h" />
+    <ClInclude Include="Fmod\inc\fmod.hpp" />
+    <ClInclude Include="Fmod\inc\fmod_codec.h" />
+    <ClInclude Include="Fmod\inc\fmod_common.h" />
+    <ClInclude Include="Fmod\inc\fmod_dsp.h" />
+    <ClInclude Include="Fmod\inc\fmod_dsp_effects.h" />
+    <ClInclude Include="Fmod\inc\fmod_errors.h" />
+    <ClInclude Include="Fmod\inc\fmod_output.h" />
+    <ClInclude Include="Headers\Engine.h" />
+    <ClInclude Include="Headers\Gameobject.h" />
+    <ClInclude Include="Headers\Hitbox.h" />
+    <ClInclude Include="Headers\IndexBuffer.h" />
+    <ClInclude Include="Headers\MinMath.h" />
+    <ClInclude Include="Headers\Renderer.h" />
+    <ClInclude Include="Headers\Shader.h" />
+    <ClInclude Include="Headers\SpelObjekt.h" />
+    <ClInclude Include="Headers\SpelObjekt\Enemy_Bullet_Template.h" />
+    <ClInclude Include="Headers\SpelObjekt\Level_1_Enemy_2.h" />
+    <ClInclude Include="Headers\SpelObjekt\Level_1_Enemy_3.h" />
+    <ClInclude Include="Headers\SpelObjekt\Player_Attack_BigShot.h" />
+    <ClInclude Include="Headers\Texture.h" />
+    <ClInclude Include="Headers\Update.h" />
+    <ClInclude Include="Headers\Vector2D.h" />
+    <ClInclude Include="Headers\VertexArray.h" />
+    <ClInclude Include="Headers\VertexBuffer.h" />
+    <ClInclude Include="Headers\VertexBufferLayout.h" />
+    <ClInclude Include="Source\bildhantering\BildHantering.h" />
+    <ClInclude Include="Source\EgenUtility\MinaStringOperations.h" />
+    <ClInclude Include="Source\Engine\EngineExternals.h" />
+    <ClInclude Include="Source\Engine\Engine_GenericComponent.h" />
+    <ClInclude Include="Source\Engine\SoundEngine\TouhouSoundEngine.h" />
+    <ClInclude Include="Source\Engine\SpriteAnimationRenderer.h" />
+    <ClInclude Include="Source\Engine\TextRendering.h" />
+    <ClInclude Include="Source\SpelObjektcpp\Johan.h" />
+    <ClInclude Include="Source\SpelObjektcpp\MainMenu.h" />
+    <ClInclude Include="Source\SpelObjektcpp\PausMenu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\Shaders\fragmentshader.txt" />
+    <Text Include="Resources\Shaders\MonochromeShaderVertex.txt" />
+    <Text Include="Resources\Shaders\MonochromeShaderFragment.txt" />
+    <Text Include="Resources\Shaders\vertexshader.txt" />
+    <Text Include="Resources\SpelResurser\Sprites\AnimationConfigs\PlayerAnimationConfig.txt" />
+    <Text Include="Resources\SpelResurser\Sprites\AnimationConfigs\PlayerAnimationConfig2.txt" />
+    <Text Include="Source\TodoList.txt" />
+    <Text Include="SpelResurser\Sprites\AnimationConfigs\PlayerAnimationConfig.txt" />
+    <Text Include="SpelResurser\Sprites\AnimationConfigs\PlayerAnimationConfig2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\SpelResurser\Sprites\Backgrund1.png" />
+    <Image Include="Resources\SpelResurser\Sprites\Backgrund2.png" />
+    <Image Include="Resources\SpelResurser\Sprites\Backgrund3.png" />
+    <Image Include="Resources\SpelResurser\Sprites\BigShot.png" />
+    <Image Include="Resources\SpelResurser\Sprites\Bluesquare.png" />
+    <Image Include="Resources\SpelResurser\Sprites\Bomb.png" />
+    <Image Include="Resources\SpelResurser\Sprites\Fiende3.png" />
+    <Image Include="Resources\SpelResurser\Sprites\Fiende1.png" />
+    <Image Include="Resources\SpelResurser\Sprites\fiendeattack1.png" />
+    <Image Include="Resources\SpelResurser\Sprites\Green.png" />
+    <Image Include="Resources\SpelResurser\Sprites\Fiende2.png" />
+    <Image Include="Resources\SpelResurser\Sprites\Jakob.png" />
+    <Image Include="Resources\SpelResurser\Sprites\Johan.png" />
+    <Image Include="Resources\SpelResurser\Sprites\Ossian.png" />
+    <Image Include="Resources\SpelResurser\Sprites\PlayerRegularBullet.png" />
+    <Image Include="Resources\SpelResurser\Sprites\RedSquare.png" />
+    <Image Include="Resources\SpelResurser\Sprites\reverse.png" />
+    <Image Include="Resources\TextImages\0.png" />
+    <Image Include="Resources\TextImages\1.png" />
+    <Image Include="Resources\TextImages\2.png" />
+    <Image Include="Resources\TextImages\3.png" />
+    <Image Include="Resources\TextImages\4.png" />
+    <Image Include="Resources\TextImages\5.png" />
+    <Image Include="Resources\TextImages\6.png" />
+    <Image Include="Resources\TextImages\7.png" />
+    <Image Include="Resources\TextImages\8.png" />
+    <Image Include="Resources\TextImages\9.png" />
+    <Image Include="Resources\TextImages\A.png" />
+    <Image Include="Resources\TextImages\a_2.png" />
+    <Image Include="Resources\TextImages\B.png" />
+    <Image Include="Resources\TextImages\b_2.png" />
+    <Image Include="Resources\TextImages\C.png" />
+    <Image Include="Resources\TextImages\c_2.png" />
+    <Image Include="Resources\TextImages\D.png" />
+    <Image Include="Resources\TextImages\d_2.png" />
+    <Image Include="Resources\TextImages\E.png" />
+    <Image Include="Resources\TextImages\e_2.png" />
+    <Image Include="Resources\TextImages\F.png" />
+    <Image Include="Resources\TextImages\f_2.png" />
+    <Image Include="Resources\TextImages\G.png" />
+    <Image Include="Resources\TextImages\g_2.png" />
+    <Image Include="Resources\TextImages\H.png" />
+    <Image Include="Resources\TextImages\h_2.png" />
+    <Image Include="Resources\TextImages\I.png" />
+    <Image Include="Resources\TextImages\i_2.png" />
+    <Image Include="Resources\TextImages\J.png" />
+    <Image Include="Resources\TextImages\j_2.png" />
+    <Image Include="Resources\TextImages\K.png" />
+    <Image Include="Resources\TextImages\k_2.png" />
+    <Image Include="Resources\TextImages\L.png" />
+    <Image Include="Resources\TextImages\l_2.png" />
+    <Image Include="Resources\TextImages\M.png" />
+    <Image Include="Resources\TextImages\m_2.png" />
+    <Image Include="Resources\TextImages\N.png" />
+    <Image Include="Resources\TextImages\n_2.png" />
+    <Image Include="Resources\TextImages\O.png" />
+    <Image Include="Resources\TextImages\o_2.png" />
+    <Image Include="Resources\TextImages\P.png" />
+    <Image Include="Resources\TextImages\p_2.png" />
+    <Image Include="Resources\TextImages\Q.png" />
+    <Image Include="Resources\TextImages\q_2.png" />
+    <Image Include="Resources\TextImages\R.png" />
+    <Image Include="Resources\TextImages\r_2.png" />
+    <Image Include="Resources\TextImages\S.png" />
+    <Image Include="Resources\TextImages\s_2.png" />
+    <Image Include="Resources\TextImages\T.png" />
+    <Image Include="Resources\TextImages\t_2.png" />
+    <Image Include="Resources\TextImages\U.png" />
+    <Image Include="Resources\TextImages\u_2.png" />
+    <Image Include="Resources\TextImages\V.png" />
+    <Image Include="Resources\TextImages\v_2.png" />
+    <Image Include="Resources\TextImages\W.png" />
+    <Image Include="Resources\TextImages\w_2.png" />
+    <Image Include="Resources\TextImages\X.png" />
+    <Image Include="Resources\TextImages\x_2.png" />
+    <Image Include="Resources\TextImages\Y.png" />
+    <Image Include="Resources\TextImages\y_2.png" />
+    <Image Include="Resources\TextImages\Z.png" />
+    <Image Include="Resources\TextImages\ZX_1.png" />
+    <Image Include="Resources\TextImages\ZX_10.png" />
+    <Image Include="Resources\TextImages\ZX_11.png" />
+    <Image Include="Resources\TextImages\ZX_12.png" />
+    <Image Include="Resources\TextImages\ZX_13.png" />
+    <Image Include="Resources\TextImages\ZX_14.png" />
+    <Image Include="Resources\TextImages\ZX_15.png" />
+    <Image Include="Resources\TextImages\ZX_16.png" />
+    <Image Include="Resources\TextImages\ZX_17.png" />
+    <Image Include="Resources\TextImages\ZX_2.png" />
+    <Image Include="Resources\TextImages\ZX_3.png" />
+    <Image Include="Resources\TextImages\ZX_4.png" />
+    <Image Include="Resources\TextImages\ZX_5.png" />
+    <Image Include="Resources\TextImages\ZX_6.png" />
+    <Image Include="Resources\TextImages\ZX_7.png" />
+    <Image Include="Resources\TextImages\ZX_8.png" />
+    <Image Include="Resources\TextImages\ZX_9.png" />
+    <Image Include="Resources\TextImages\z_2.png" />
+    <Image Include="SpelResurser\Sprites\Backgrund1.png" />
+    <Image Include="SpelResurser\Sprites\Backgrund2.png" />
+    <Image Include="SpelResurser\Sprites\Backgrund3.png" />
+    <Image Include="SpelResurser\Sprites\Bluesquare.png" />
+    <Image Include="SpelResurser\Sprites\fiendeattack1.png" />
+    <Image Include="SpelResurser\Sprites\Green.png" />
+    <Image Include="SpelResurser\Sprites\Jakob.png" />
+    <Image Include="SpelResurser\Sprites\PlayerRegularBullet.png" />
+    <Image Include="SpelResurser\Sprites\RedSquare.png" />
+    <Image Include="SpelResurser\Sprites\reverse.png" />
+    <Image Include="TextImages\0.png" />
+    <Image Include="TextImages\1.png" />
+    <Image Include="TextImages\2.png" />
+    <Image Include="TextImages\3.png" />
+    <Image Include="TextImages\4.png" />
+    <Image Include="TextImages\5.png" />
+    <Image Include="TextImages\6.png" />
+    <Image Include="TextImages\7.png" />
+    <Image Include="TextImages\8.png" />
+    <Image Include="TextImages\9.png" />
+    <Image Include="TextImages\A.png" />
+    <Image Include="TextImages\a_2.png" />
+    <Image Include="TextImages\B.png" />
+    <Image Include="TextImages\b_2.png" />
+    <Image Include="TextImages\C.png" />
+    <Image Include="TextImages\c_2.png" />
+    <Image Include="TextImages\D.png" />
+    <Image Include="TextImages\d_2.png" />
+    <Image Include="TextImages\E.png" />
+    <Image Include="TextImages\e_2.png" />
+    <Image Include="TextImages\F.png" />
+    <Image Include="TextImages\f_2.png" />
+    <Image Include="TextImages\G.png" />
+    <Image Include="TextImages\g_2.png" />
+    <Image Include="TextImages\H.png" />
+    <Image Include="TextImages\h_2.png" />
+    <Image Include="TextImages\I.png" />
+    <Image Include="TextImages\i_2.png" />
+    <Image Include="TextImages\J.png" />
+    <Image Include="TextImages\j_2.png" />
+    <Image Include="TextImages\K.png" />
+    <Image Include="TextImages\k_2.png" />
+    <Image Include="TextImages\L.png" />
+    <Image Include="TextImages\l_2.png" />
+    <Image Include="TextImages\M.png" />
+    <Image Include="TextImages\m_2.png" />
+    <Image Include="TextImages\N.png" />
+    <Image Include="TextImages\n_2.png" />
+    <Image Include="TextImages\O.png" />
+    <Image Include="TextImages\o_2.png" />
+    <Image Include="TextImages\P.png" />
+    <Image Include="TextImages\p_2.png" />
+    <Image Include="TextImages\Q.png" />
+    <Image Include="TextImages\q_2.png" />
+    <Image Include="TextImages\R.png" />
+    <Image Include="TextImages\r_2.png" />
+    <Image Include="TextImages\S.png" />
+    <Image Include="TextImages\s_2.png" />
+    <Image Include="TextImages\T.png" />
+    <Image Include="TextImages\t_2.png" />
+    <Image Include="TextImages\U.png" />
+    <Image Include="TextImages\u_2.png" />
+    <Image Include="TextImages\V.png" />
+    <Image Include="TextImages\v_2.png" />
+    <Image Include="TextImages\W.png" />
+    <Image Include="TextImages\w_2.png" />
+    <Image Include="TextImages\X.png" />
+    <Image Include="TextImages\x_2.png" />
+    <Image Include="TextImages\Y.png" />
+    <Image Include="TextImages\y_2.png" />
+    <Image Include="TextImages\Z.png" />
+    <Image Include="TextImages\ZX_1.png" />
+    <Image Include="TextImages\ZX_10.png" />
+    <Image Include="TextImages\ZX_11.png" />
+    <Image Include="TextImages\ZX_12.png" />
+    <Image Include="TextImages\ZX_13.png" />
+    <Image Include="TextImages\ZX_14.png" />
+    <Image Include="TextImages\ZX_15.png" />
+    <Image Include="TextImages\ZX_16.png" />
+    <Image Include="TextImages\ZX_17.png" />
+    <Image Include="TextImages\ZX_2.png" />
+    <Image Include="TextImages\ZX_3.png" />
+    <Image Include="TextImages\ZX_4.png" />
+    <Image Include="TextImages\ZX_5.png" />
+    <Image Include="TextImages\ZX_6.png" />
+    <Image Include="TextImages\ZX_7.png" />
+    <Image Include="TextImages\ZX_8.png" />
+    <Image Include="TextImages\ZX_9.png" />
+    <Image Include="TextImages\z_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fmod\inc\fmod.cs" />
+    <None Include="Fmod\inc\fmod_dsp.cs" />
+    <None Include="Fmod\inc\fmod_errors.cs" />
+    <None Include="Fmod\lib\x64\fmod.dll" />
+    <None Include="Fmod\lib\x64\fmodL.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Fmod\lib\x64\fmodL_vc.lib" />
+    <Library Include="Fmod\lib\x64\fmod_vc.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\Sounds\AnimeTeleport.wav" />
+    <Media Include="Resources\Sounds\BigShot.wav" />
+    <Media Include="Resources\Sounds\OMyGodNejJohan.wav" />
+    <Media Include="Resources\Sounds\Oof.wav" />
+    <Media Include="Resources\Sounds\PlayerBomb.wav" />
+    <Media Include="Resources\Sounds\PlayerBasicShot.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
